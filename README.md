@@ -19,7 +19,7 @@
 parameter : `number-of-projects`
 
 ## Examples of query:
-##### Consider the project is running locally and at port 8082:
+##### Consider the project is running locally and on port 8082:
 
 `curl -X GET "http://localhost:8082/projects-names-and-stars?number-of-projects=200"`
 
