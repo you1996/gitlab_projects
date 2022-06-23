@@ -4,6 +4,10 @@ build:
 run:
 	go run cmd/main.go
 
+install:
+	go get -d -v ./...
+	go install -v ./...
+
 test:
 	go test ./...
 
